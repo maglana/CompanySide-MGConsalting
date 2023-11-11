@@ -90,3 +90,22 @@ header.hero-img {
 		color: colors.$nav-white-color;
 	}
 }
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+	.aboutus-hover {
+		transition: color 0.3s;
+	}
+	.aboutus-hover:hover {
+		color: colors.$nav-blue-color;
+	}
+}
