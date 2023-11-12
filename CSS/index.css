@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ebecf2;
+}
+
 .blue-text {
   color: #14b887;
 }
@@ -103,4 +112,31 @@ header.hero-img .fa-chevron-down {
 }
 .aboutus .aboutus-hover:hover {
   color: #14b887;
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url("../img/team/matrix-1280.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  z-index: 0;
+}
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -5;
+}
+.aboutus-hero .abouts-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .abouts-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero .abouts-hero-item .about-hero-title {
+  font-size: 24px;
 }/*# sourceMappingURL=index.css.map */
