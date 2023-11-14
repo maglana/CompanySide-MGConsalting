@@ -147,6 +147,7 @@ header.hero-img {
 		}
 	}
 }
+
 .portfolio {
 	.carousel-item {
 		height: 600px;
@@ -260,5 +261,90 @@ header.hero-img {
 		margin-bottom: 20px;
 		text-align: center;
 		text-transform: uppercase;
+	}
+}
+.achievements-list {
+	padding: 20px 0;
+	i {
+		padding: 10px;
+		font-size: 48px;
+		color: colors.$nav-white-color;
+		text-shadow: 0 0 5px rgb(0, 0, 0);
+	}
+
+	.achievement-number {
+		font-size: 22px;
+	}
+
+	.achievement-text {
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+}
+
+.contact {
+	position: relative;
+	background-image: url("../img/team/matrix-1280.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+	h2 {
+		color: white;
+	}
+}
+.contact-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -5;
+}
+.contact-us {
+	display: flex;
+	align-items: center;
+	color: white;
+	h3 {
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+.social-media {
+	font-size: 26px;
+	a {
+		padding: 10px;
+		color: white;
+		transition: color 0.3s;
+	}
+	a:hover {
+		color: colors.$nav-blue-color;
+	}
+}
+
+@media (min-woidth: 768px) {
+	.hero-text {
+		hi {
+			font-size: 42px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
+	}
+	.aboutus-hero {
+		background-image: url("../img/team/matrix-1280.jpg");
+	}
+
+	@media (min-width: 1200px) {
+		header.hero-img {
+			background-image: url("../img/team/startup.jpg");
+		}
 	}
 }
